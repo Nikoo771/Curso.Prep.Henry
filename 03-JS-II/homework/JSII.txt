@@ -1,0 +1,13 @@
+*for: for es un bucle que mientras una condicion sea verdadera el codigo se ejecuta una y otra vez hasta
+que cambie la condicion a falso. Su sintaxis es:
+
+for (let i = 0                 ; i < 10                 ; i++          ) {
+// | Declaramos una variable | Expresión condcicional | Incrementamos la variable |
+    console.log(i);
+}
+
+*&&, ||, !: && es la sintaxis de y (AND) que mientras dos condiciones sean verdaderas se ejecutara 
+el codigo. || significa o (OR) si una es verdadera el codigo se ejecuta. y ! significa no (NOT) 
+seria lo contrario a lo que ocurra. Por ejemplo:
+1 === 1 //true
+!(1 === 1) //false

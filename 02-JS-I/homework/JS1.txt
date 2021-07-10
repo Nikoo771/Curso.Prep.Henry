@@ -1,0 +1,39 @@
+*Variables: Son como cajas donde puedo guardar datos para luego ir a buscarlos e interactuar con ellos.
+Ej: var i = 1;
+
+*Strings: Es un tipo de dato que contiene texto. Se escribre entre comillas. Ej:"Hola", 'Hola'.
+
+*Funciones (argumentos, return): Las funciones agrupan un codigo para no reescribir operaciones.
+Por ejemplo, puedo hacer una funcion de numeros pares y al darle x numero a la funcion, esta 
+verificara si es par o no y me devolvera verdadero o falto o el texto de es par o no.
+Para esto utiliza los argumentos que serian las variables que integran la funcion. Seria el dato
+que ingresa a la funcion para ser evaluado. Return sirve para salir o terminar la funcion, puede 
+usarse solo para salir o con un resultado para que este sea devuelto.
+
+function EsPar (n) {
+    if (n % 2 === 0) {
+        return 'El numero ingresado es Par';
+    } else {
+        return'El numero ingresado es Impar';
+    }
+}
+
+*Declaraciones if: If puede leerse como Si. La sintaxis o forma de escribirlo seria 
+if (condicion) {
+    //bloque de codigo;
+} else {
+    //bloque de codigo;
+}
+
+lo leeriamos asi:
+Si (pasa esto) {
+    //entonces ejecuto este codigo;
+} Sino {
+    //ejecuto este otro codigo;
+}
+
+El if sirve para que un codigo se ejecute si se cumple alguna condicion pactada.
+
+*Valores booleanos (true, false): Estos valores indican si algo es verdadero o falso. Por ejemplo:
+1 === 2 //false
+1 === 1 //true
