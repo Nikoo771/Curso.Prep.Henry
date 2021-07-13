@@ -1,0 +1,9 @@
+Arrays: Son un conjunto de datos que puedo agrupar como una lista. Puedo acceder a cualquier dato 
+con el indice del arreglo que seria la posicion de cada dato. 
+
+var array = ['samuel', 'sara', 1, 2, array2[1,2,3,4]];
+
+El arreglo puede contener numeros, string, boleanos, otros arreglos, funciones. Puedo asignar valor
+ a cualquier indice del arreglo ""array[0] = 1;" siempre comienzan en 0. Puedo insertar un dato al 
+ principio con .unshift, puedo sacarlo del principio con .shift. Puedo insertar al final con .push 
+ y sacarlo con .pop.
