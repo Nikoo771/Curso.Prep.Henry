@@ -1,0 +1,24 @@
+*Objetos: Son un conjunto de datos referenciados a una sola cosa. Estos datos describen o nos devuelven
+informacion del objeto(propiedades). Se definen con {} de la sigiente forma: const objeto = {};
+
+*Propiedades: Son los datos que guardaremos acerca del objeto. Funcionan con una clave: valor. Ej.:
+const persona = {
+    nombre: 'Juan',
+    edad: 33,
+};
+
+Estos se pueden asignar como ya conocemos o eliminar con (delete).
+
+*Métodos: Los metodos son las funciones dentro de un objeto. Dato importante: para no repetir codigo
+cuando queremos que la funcion dentro del objeto haga mencion de otra propiedad utilizamos (this).
+Por ej.: edad = this.edad * 2; // 66. 
+
+*Bucle for…in: Si queremos recorrer el objeto debemos utilizar el for con la palabra (in). Ej:
+for (let clave in persona){
+    console.log(clave); // nombre, edad;
+    console.log(persona.clave); // Juan, 33;
+}
+
+*Notación de puntos vs notación de corchetes: La notacion de puntos sirve para escribir menos codigo.
+Por ejemplo podemos asignar un valor asi: persona.nombre = 'Mati'; 
+La notacion con corchetes seria asi: persona ['nombre'] = 'Mati';
